@@ -466,7 +466,7 @@ function showResult() {
     if(badCount > 0) {
         resultText += `<p class="narration bad-ending">昨夜并不安稳，少年几度感到难以呼吸，又好像是溺水。动了动手指，后知后觉地感受到指尖残留着的水渍，等等，怎么连脸上也……？</p>`;
     } else {
-        resultText += `<p class="narration good-ending">酒肆安然迎来黎明，睡醒时少年在手边摸到了刻着“义”字的玉佩……看来又能讨到一笔不菲的报酬了。</p>`;
+        resultText += `<p class="narration good-ending">酒肆安然迎来黎明，睡醒时少年在手边摸到了一只没有线的漂亮风筝，不知此刻的风筝线又牵在谁的手心呢？</p>`;
     }
 
     resultText += `<button onclick="location.reload()">🔄 再历此夜</button>`;
