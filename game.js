@@ -188,6 +188,7 @@ const CHARACTERS = {
                 reject: ["门外的人很快地眨了眨眼，然后低下了头。“我理解你的顾虑。无论如何，你的安全……是最重要的。”他后退一步，安静地伸出手贴在门边上，视线热烈得几乎要穿墙而入。“我不强求，只要你一切安好……就好。”门外人轻叹一声，转身毅然决然走进了风雨之中。"]
             },
             outcomes: [
+                "少年和这位贵客……的驴一见如故！可惜第二天贵客便又很快启程了，少年和驴依依惜别，却不知为何松了一口气。不过那是一匹优秀的千里驴！它一定可以载着他的主人完成不可能完成之事，少年对此深信不疑。"
             ],
             items: [
                 {
@@ -463,6 +464,7 @@ const CHARACTERS = {
                 reject: ["你…你会后悔的…武将无力地锤打了门板后伴随着驴蹄声渐行渐远，少年打开一条门缝看到一地血迹有些后悔…"]
             },
             outcomes: [
+                "不知为何，或许受那鞭子驱使，次日天刚蒙蒙亮，少年便驾上了驴车带着身后的贵人一路狂奔……等等，为什么要给他卖命啊？？"
             ],
             items: [
                 {
@@ -644,8 +646,6 @@ async function showVisitor(index) {
     document.getElementById('judgment').style.display = visitor.revealed ? 'block' : 'none';
 }
 
-
-
 function showQuestionOptions() {
     const visitor = visitors[currentVisitorIndex];
     const options = Object.keys(visitor.questions)
@@ -655,7 +655,6 @@ function showQuestionOptions() {
             ${q}
         </button>`)
         .join('');
-
     document.getElementById('questionOptions').innerHTML = options;
 }
 
@@ -688,7 +687,7 @@ async function initializeGame() {
         `店小二领着${playerName}来到了客房<br>放下行李，外面竟然开始打起了早雷<br>准备早些休息……<br>“咚咚咚！咚咚咚！”<br>似乎有人敲门，去看看发生了什么？`,
         2000
     );
-
+    
     await showVisitor(currentVisitorIndex);
 }
 
@@ -738,9 +737,6 @@ async function showNarration(text, delay=1500) {
     });
 }
 
-
-
-
 async function makeDecision(openDoor) {
     const visitor = visitors[currentVisitorIndex];
     const isLast = currentVisitorIndex === 2;
@@ -765,7 +761,6 @@ async function makeDecision(openDoor) {
         showResult();
     }
 }
-
 
 function checkItems() {
     const visitor = visitors[currentVisitorIndex];
@@ -868,10 +863,10 @@ function showResult() {
                     ? validOutcomes[Math.floor(Math.random()*validOutcomes.length)]
                     : "酒肆安然迎来黎明，睡醒时少年在手边摸到了一只没有线的漂亮风筝，不知此刻的风筝线又牵在谁的手心呢？";
                 resultText += `<p class="narration good-ending">${ending}</p>`;
-            } else {
-                resultText += `<p class="narration">油灯将尽时终于重归寂静，空荡荡的客房只剩自己的呼吸声。</p>`;
             }
-
+        }
+        else {
+            resultText += `<p class="narration">油灯将尽时终于重归寂静，空荡荡的客房只剩自己的呼吸声。</p>`;
         }
     }
 
