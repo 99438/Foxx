@@ -16,6 +16,9 @@ const CHARACTERS = {
                 accept: ["府尹不紧不慢地走进来，神色如常道：“如今世道纷乱，少侠谨慎些也是应当的。”", "府尹摩挲了一下玉扳指，颔首向少年道谢。……然后径直走向了少年的床位。"],
                 reject: ["门外传来一声轻笑，听不出情绪。“也罢，那少侠自己可要想清楚利害关系。”"]
             },
+            outcomes: [
+                "酒肆安然迎来黎明，睡醒时少年在手边摸到了一枚沾着露水的玉扳指。案头留书：『赠君明月，以谢夜泊』",
+            ],
             items: [
                 {
                     name: "名贵面脂",
@@ -49,6 +52,9 @@ const CHARACTERS = {
                 accept: ["多谢少侠，不菲报酬……都好说。"],
                 reject: ["门外的身影似乎顿了一下：“……少侠有成算便好。”", "“……”过了一会，听到门口的脚步声渐渐远了。"]
             },
+            outcomes: [
+                "酒肆安然迎来黎明，睡醒时少年在手边摸到了一只没有线的漂亮风筝，不知此刻的风筝线又牵在谁的手心呢？",
+            ],
             items: [
                 {
                     name: "玉楼春花枝",
@@ -65,10 +71,6 @@ const CHARACTERS = {
                 {
                     name: "飞镖",
                     desc: "闪着寒光的飞镖，不过似乎很干净。让人怀疑它的主人是否真的会用到它。"
-                },
-                {
-                    name: "佩剑",
-                    desc: "似乎不是寻常佩剑，能抽出一段锁链当鞭子也说不定？"
                 }
             ]
         },
@@ -86,6 +88,9 @@ const CHARACTERS = {
                 accept: ["孩童抬起还有些稚嫩的面庞，却郑重其事地说道“大哥哥谢谢你，今日之恩来日当涌泉相报。”", "那孩子不着痕迹地用手抹了一下眼睛，可以看到略有些发红的眼角。开口时声音却平静得听不出来端倪，“多谢大侠出手相助……谢谢你。"],
                 reject: ["小小的身影在门口停了片刻，", "“……”过了一会，听到门口的脚步声渐渐远了。"]
             },
+            outcomes: [
+                "来自清河的孩子王似乎天生和这小小的簪花少年意趣相投，他们有一搭没一搭的聊了很久。天蒙蒙亮时，少年轻轻拥抱了这个看起来有些早熟的孩子，再睁眼时怀抱中的温度便如烟消失了。",
+            ],
             items: [
                 {
                     name: "花",
@@ -115,6 +120,9 @@ const CHARACTERS = {
                 accept: ["贵客走进房门，他本应坐在一旁备好被褥的空床位上休整，却走向少年慎重其事地道谢，少年看见他脸色苍白，行动不便，并且动作之间还露出微鼓的幅度。少年心头一软，连忙扶起他的同时，还在心里埋怨他那个不知身在何处的丈夫。"],
                 reject: ["挺拔的身影伸出手轻轻伏在门框处，少年借着破损的窗口看到他脑袋抵着门急促的喘息着，他看起来的确身体不适，少年为之前的决定感到有些后悔，刚想开口时，听到门口的脚步声渐渐远去。"]
             },
+            outcomes: [
+                "少年一夜好眠，醒来之时却发现掌心握着半件玉佩。他仔细一看，发现这东西与昨夜那位贵客身上那件同心佩乃一对之物，上头刻着一只灵活灵现的小狗。",
+            ],
             items: [
                 {
                     name: "同心玉佩",
@@ -144,6 +152,8 @@ const CHARACTERS = {
                 accept: ["多谢少侠，来日的回报定不会让你后悔，说完拍了拍你的肩膀把驴也牵进了屋。"],
                 reject: ["你…你会后悔的…武将无力地锤打了门板后伴随着驴蹄声渐行渐远，少年打开一条门缝看到一地血迹有些后悔…"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "玉佩",
@@ -177,6 +187,8 @@ const CHARACTERS = {
                 accept: ["“少侠的恩情，我自当铭记于心。”门外人小心翼翼地进门，尽量不让身上的风雨弄湿屋内。他的眼睛盯着少年看了很久很久，似有许多的话要说。但最后，他只是静静地坐在少年床头，轻轻替他掖了掖被角。"],
                 reject: ["门外的人很快地眨了眨眼，然后低下了头。“我理解你的顾虑。无论如何，你的安全……是最重要的。”他后退一步，安静地伸出手贴在门边上，视线热烈得几乎要穿墙而入。“我不强求，只要你一切安好……就好。”门外人轻叹一声，转身毅然决然走进了风雨之中。"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "一枚玉玺",
@@ -206,6 +218,8 @@ const CHARACTERS = {
                 accept: ["老叟并没有说什么，只是盯着你看，眼里满是眷恋。“少侠，多年未见。”"],
                 reject: ["老叟皱了一下眉头，淡淡地笑着说“少侠有此戒备心，也好。”老叟继续向前路走去，腿上的伤让脚拖沓在沙面上，发出沙沙声。"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "醒愁玉桂枝",
@@ -234,6 +248,8 @@ const CHARACTERS = {
                 accept: ["女子走进房门，少年发现她挑了离出口最远的床榻，随即捡了被褥细细挑刺，少年斜过视线悄悄撇着她，却没想到她一下抽出一条丝绸被子垫在床板上，面色不虞地躺上去。"],
                 reject: ["那个女子哼了一声，走下楼的步子一下比一下重，少年可以听出她絮絮叨叨说着什么“不识好歹”，“笨狗”之类的话语，少年人无端恶寒，记起府尹大人和丞相大人商议要事提及自己时，同有所感"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "行囊",
@@ -267,6 +283,9 @@ const CHARACTERS = {
                 accept: ["府尹不紧不慢地走进来，神色如常道：“如今世道纷乱，少侠谨慎些也是应当的。”", "府尹摩挲了一下玉扳指，颔首向少年道谢。……然后径直走向了少年的床位。"],
                 reject: ["门外传来一声轻笑，听不出情绪。“也罢，那少侠自己可要想清楚利害关系。”"]
             },
+            outcomes: [
+                "昨夜并不安稳，总感觉被人掐着下巴喂了什么却醒不过来……是什么呢？",
+            ],
             items: [
                 {
                     name: "名贵面脂",
@@ -278,7 +297,7 @@ const CHARACTERS = {
                 },
                 {
                     name: "印信",
-                    desc: "一枚雕刻精细的印信，在月光下泛着淡淡的光泽，似乎是全新的。"
+                    desc:  "一枚雕刻精细的印信，在月光下泛着淡淡的光泽，似乎是全新的。"
                 },
                 {
                     name: "扳指",
@@ -301,9 +320,11 @@ const CHARACTERS = {
                 "少侠，是我，今夜的风沙太大，实没有安歇之处，可否让我同住一晚，日后定有重谢。",
             ],
             reactions: {
-                accept: ["贵公子模样的人也客气，径直路过了少年，他的模样称得上清秀，几乎要让人放下防备，不过人人皆可貌相否？"],
+                accept: ["贵公子模样的人也不客气，径直路过了少年，他的模样称得上清秀，几乎要让人放下防备，不过人人皆可貌相否？"],
                 reject: ["门口传来“嘭”的一声响，再从窗口看去，只有一些烟尘，和烟尘底下隐约可见的一张符纸。"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "发带",
@@ -342,6 +363,8 @@ const CHARACTERS = {
                 accept: ["贵公子模样的人进来后，对着少年眯着眼睛笑了笑：“该怎么报答你呢……恩人？”"],
                 reject: ["“真可惜”门口的人似乎耸了耸肩，转身离开了，在他走后，少年打开门，发现了一小串梅花状的脚印，通向廊外草丛。"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "绒毛",
@@ -373,6 +396,9 @@ const CHARACTERS = {
                 accept: ["贵公子模样的人进来后，忽然靠得很近，近到少年耳畔听到笑意中掺杂着的嘶嘶声。"],
                 reject: ["“唉，这世道...”门口的人似乎耸了耸肩，转身离开了，在他走后，少年打开门，在地上拾起了一小片晶莹的蛇鳞。"]
             },
+            outcomes: [
+                "昨夜并不安稳，少年动了动手指……等等，好像还摸到了什么东西……是几颗还残留着水渍的蛋。",
+            ],
             items: [
                 {
                     name: "蛋",
@@ -406,6 +432,8 @@ const CHARACTERS = {
                 accept: ["多谢少侠，来日的回报定不会让你后悔，说完拍了拍你的肩膀把驴也牵进了屋。"],
                 reject: ["你…你会后悔的…武将无力地锤打了门板后伴随着驴蹄声渐行渐远，少年打开一条门缝看到一地血迹有些后悔…"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "鞭子",
@@ -439,6 +467,9 @@ const CHARACTERS = {
                 accept: ["贵客走进房门，坐在一旁备好被褥的空床位上休整，少年看见他脸色苍白，行动不便，脱下披风露出丰腴的身姿以及他肚子上鼓胀的幅度。"],
                 reject: ["挺拔的身影愣了愣，四指成拳紧握了一会儿，随即卸力放松。", "“……”过了一会，听到门口的脚步声渐渐远了。"]
             },
+            outcomes: [
+                "夜里，少年睡得躁动却无法醒来，似烈焰焚烧在他身体的各个角落。直到有什么东西被塞入他的口中，用力吸吮，甘甜的汁露从中涌出，这才缓解了他的渴痛。只不过，第二天醒来，少年咂摸着嘴巴，发现口腔中残留着一股奶味，这便是后话了。",
+            ],
             items: [
                 {
                     name: "同心玉佩",
@@ -467,6 +498,8 @@ const CHARACTERS = {
                 accept: ["女子走进房门，少年发现她挑了离出口最远的床榻，随即捡了被褥细细挑刺，少年斜过视线悄悄撇着她，却没想到她一下抽出一条丝绸被子垫在床板上，面色不虞地躺上去。"],
                 reject: ["那个女子哼了一声，走下楼的步子一下比一下重，少年可以听出她絮絮叨叨说着什么“不识好歹”，“笨狗”之类的话语，少年人无端恶寒，记起府尹大人和丞相大人商议要事提及自己时，同有所感"]
             },
+            outcomes: [
+            ],
             items: [
                 {
                     name: "行囊",
@@ -505,6 +538,7 @@ function createVisitor(alignment) {
         .slice(0, randomCount);
 
     return {
+        outcomes: template.outcomes,
         revealed: false,
         alignment,
         greeting: template.greetings[Math.floor(Math.random()*template.greetings.length)],
@@ -740,9 +774,41 @@ function showResult() {
     ).length;
 
     if(badCount > 0) {
-        resultText += `<p class="narration bad-ending">昨夜并不安稳，少年几度感到难以呼吸，又好像是溺水。动了动手指，后知后觉地感受到指尖残留着的水渍，等等，怎么连脸上也……？</p>`;
+        const badVisitors = playerChoices
+            .filter(c => c.decision && c.visitor.alignment === 'bad')
+            .map(c => c.visitor);
+
+        if(badVisitors.length > 0) {
+            const chosenOne = badVisitors[Math.floor(Math.random() * badVisitors.length)];
+            const validOutcomes = Array.isArray(chosenOne.outcomes) ? chosenOne.outcomes : [];
+            const ending = validOutcomes.length > 0
+                ? validOutcomes[Math.floor(Math.random() * validOutcomes.length)]
+                : "昨夜并不安稳，少年几度感到难以呼吸，又好像是溺水。动了动手指，后知后觉地感受到指尖残留着的水渍，等等，怎么连脸上也……？";
+            resultText += `<p class="narration bad-ending">${ending}</p>`;
+        }
     } else {
-        resultText += `<p class="narration good-ending">酒肆安然迎来黎明，睡醒时少年在手边摸到了一只没有线的漂亮风筝，不知此刻的风筝线又牵在谁的手心呢？</p>`;
+        const goodVisitors = playerChoices
+            .filter(c => c.decision && c.visitor.alignment === 'good')
+            .map(c => c.visitor);
+
+        if(goodVisitors.length > 0) {
+            const goodVisitors = playerChoices
+                .filter(c => c.decision && c.visitor.alignment === 'good')
+                .map(c => c.visitor);
+
+            if(goodVisitors.length > 0) {
+                const chosenOne = goodVisitors[Math.floor(Math.random() * goodVisitors.length)];
+
+                const validOutcomes = Array.isArray(chosenOne.outcomes) ? chosenOne.outcomes : [];
+                const ending = validOutcomes.length > 0
+                    ? validOutcomes[Math.floor(Math.random()*validOutcomes.length)]
+                    : "酒肆安然迎来黎明，睡醒时少年在手边摸到了一只没有线的漂亮风筝，不知此刻的风筝线又牵在谁的手心呢？";
+                resultText += `<p class="narration good-ending">${ending}</p>`;
+            } else {
+                resultText += `<p class="narration">油灯将尽时终于重归寂静，空荡荡的客房只剩自己的呼吸声。</p>`;
+            }
+
+        }
     }
 
     resultText += `<button onclick="location.reload()">🔄 再历此夜</button>`;
